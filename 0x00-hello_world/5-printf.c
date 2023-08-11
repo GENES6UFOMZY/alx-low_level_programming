@@ -3,7 +3,7 @@
  * main - Entry point
  *
  * Description: 'the program that uses the function printf'
- * return: 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
