@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - to print all alphabet in lower case
  *
  * Return: 0- Always
  */
@@ -11,7 +11,7 @@ void print_alphabet(void)
 
 	for (c = 'a' ; c <= 'z' ; c++)
 	{
-		_putchar(c);	
+		_putchar(c);
 	}
 	_putchar('\n');
 
