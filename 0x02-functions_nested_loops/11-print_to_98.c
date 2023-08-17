@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * print_to_98 - Entry point
+ * @n: argument
+ */
 
 void print_to_98(int n)
 {
@@ -19,7 +23,10 @@ void print_to_98(int n)
 			_putchar('0' + j);
 			_putchar('0' + k);
 		}
-		_putchar(44);
-		_putchar(' ');
+		if (i != 98)
+		{
+			_putchar(44);
+			_putchar(' ');
+		}
 	}
 }
